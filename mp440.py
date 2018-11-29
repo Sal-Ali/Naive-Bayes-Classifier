@@ -65,9 +65,7 @@ The percentage parameter controls what percentage of the example data
 should be used for training. 
 '''
 def compute_statistics(data, label, width, height, feature_extractor, percentage=100.0):
-    # Your code starts here 
-    # You should remove _raise_not_defined() after you complete your code
-    # Your code ends here 
+    
     size = float(np.trunc(len(label) * percentage / 100))
     # size of training set
     label_count = Counter(label)
@@ -101,13 +99,6 @@ def compute_statistics(data, label, width, height, feature_extractor, percentage
     
     
 
-    
-    
-        
-        # number of times it takes value 'false'
-    
-    # list of data stored in list, feature extract each one by one
-    #_raise_not_defined()
 
 '''
 For the given features for a single digit image, compute the class 
